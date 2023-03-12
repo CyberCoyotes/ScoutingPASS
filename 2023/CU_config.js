@@ -11,7 +11,6 @@ var config_data = `
       "maxSize": 5,
       "required": "true"
     },
-    // changed for Traverse City event
     { "name": "Event",
       "code": "e",
       "type": "event",
