@@ -82,24 +82,25 @@ var config_data = `
     },
     { "name": "Auton Docked success?",
       "code": "ad",
-      "type": radio",
+      "type": "radio",
       "choices": {
-        "x": "NA",
-        "1": "25%",
-        "2": "50%",
-        "3": "75% or better"
+        "1": "NA",
+        "2": "25%",
+        "3": "50%",
+        "4": "75% or better"
       },
+      "defaultValue":"1"
     },
     { "name": "Auton Engaged success?",
     "code": "ae",
     "type": "radio",
     "choices": {
-      "x": "NA",
-      "1": "25%",
-      "2": "50%",
-      "3": "75% or better"
+      "1": "NA",
+      "2": "25%",
+      "3": "50%",
+      "4": "75% or better"
     },
-    "defaultValue":"x"
+    "defaultValue":"1"
     },
     { "name": "Auton Notes",
       "code": "aut",
