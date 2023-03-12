@@ -27,12 +27,12 @@ var config_data = `
       "code": "drv",
       "type": "radio",
       "choices": {
-        "s": "Swerve (Any version)<br>",
-        "w": "West Coast/Tank<br>",
-        "m": "Mecanum<br>",
-        "o": "Other"
+        "1": "Swerve (Any version)<br>",
+        "2": "West Coast/Tank<br>",
+        "3": "Mecanum<br>",
+        "4": "Other"
       },
-      "defaultValue": "o"
+      "defaultValue": "2"
     },
     { "name": "Drivetrain Notes",
       "code": "dtn",
@@ -44,13 +44,13 @@ var config_data = `
       "code": "sr",
       "type": "radio",
       "choices": {
-        "x": "NA",
-        "1": "L1<br>",
-        "2": "L2<br>",
-        "3": "L3<br>",
-        "4": "L4<br>"
+        "1": "NA<br>",
+        "2": "L1<br>",
+        "3": "L2<br>",
+        "4": "L3<br>",
+        "5": "L4<br>"
       },
-      "defaultValue":"x"
+      "defaultValue":"1"
     },
     { "name": "Cones from FLOOR?",
     "code": "cff",
@@ -84,10 +84,10 @@ var config_data = `
       "code": "ad",
       "type": "radio",
       "choices": {
-        "1": "NA",
-        "2": "25%",
-        "3": "50%",
-        "4": "75% or better"
+        "1": "NA<br>",
+        "2": "25%<br>",
+        "3": "50%<br>",
+        "4": "75% or better<br>"
       },
       "defaultValue":"1"
     },
@@ -95,10 +95,10 @@ var config_data = `
     "code": "ae",
     "type": "radio",
     "choices": {
-      "1": "NA",
-      "2": "25%",
-      "3": "50%",
-      "4": "75% or better"
+      "1": "NA<br>",
+      "2": "25%<br>",
+      "3": "50%<br>",
+      "4": "75% or better<br>"
     },
     "defaultValue":"1"
     },
