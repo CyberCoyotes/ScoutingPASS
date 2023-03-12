@@ -82,7 +82,7 @@ html, body{
     left: 0;
     top: 0;
     color: white;
-    background-color: black;
+    background-color: red;
     font-family : -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     text-align: justify;
 }
@@ -120,7 +120,7 @@ h1{
 }
 
 #page2, #page4 {
-    color: black;
+    color: red;
 }
 
 h2{
