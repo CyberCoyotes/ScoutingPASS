@@ -59,10 +59,6 @@ var config_data = `
       },
       "defaultValue":"x"
     },
-    { "name": "# of Batteries",
-      "code": "nob",
-      "type": "number"
-    },
     { "name": "Floor pickup Cones",
       "code": "fco",
       "type": "bool"
@@ -77,12 +73,6 @@ var config_data = `
     },
     { "name": "Autos",
       "code": "aut",
-      "type": "text",
-      "size": 20,
-      "maxSize": 250
-    },
-    { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
-      "code": "sct",
       "type": "text",
       "size": 20,
       "maxSize": 250
