@@ -12,8 +12,8 @@ html, body{
     margin: 0;
     padding: 0;
     color: white;
-    /* background-color: black;*/
-    background-color: firebrick;
+    background-color: black;
+    /* background-color: firebrick;*/
 }
 
 #prematch_table, #postmatch_table {
@@ -82,7 +82,8 @@ html, body{
     left: 0;
     top: 0;
     color: white;
-    background-color: firebrick;
+    background-color: black;
+    /* background-color: firebrick;*/
     font-family : -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     text-align: justify;
 }
@@ -221,6 +222,8 @@ td {
 input {
     font-size: 16px;
     font: roboto;
+    color: black; /* added by 3603*/
+    background-color: white; /* added by 3603*/
 }
 
 .title {
