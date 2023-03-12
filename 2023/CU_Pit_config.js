@@ -52,6 +52,55 @@ var config_data = `
       },
       "defaultValue":"x"
     },
+    { "name": "Cones from FLOOR?",
+    "code": "cff",
+    "type": "bool"
+    },
+    { "name": "Cones from SINGLE Station?",
+      "code": "cfs",
+      "type": "bool"
+    },
+    { "name": "Cones from DOUBLE Station?",
+    "code": "cfd",
+    "type": "bool"
+    },
+    { "name": "Cubes from FLOOR?",
+      "code": "cuf",
+      "type": "bool"
+    },
+    { "name": "Cubes from SINGLE Station?",
+    "code": "cus",
+    "type": "bool"
+    },
+    { "name": "Cubes from DOUBLE Station?",
+      "code": "cub",
+      "type": "bool"
+    },
+    { "name": "Cross Charging Station",
+      "code": "ccs",
+      "type": "bool"
+    },
+    { "name": "Auton Docked success?",
+      "code": "ad",
+      "type": radio",
+      "choices": {
+        "x": "NA",
+        "1": "25%",
+        "2": "50%",
+        "3": "75% or better"
+      },
+    },
+    { "name": "Auton Engaged success?",
+    "code": "ae",
+    "type": "radio",
+    "choices": {
+      "x": "NA",
+      "1": "25%",
+      "2": "50%",
+      "3": "75% or better"
+    },
+    "defaultValue":"x"
+    },
     { "name": "Auton Notes",
       "code": "aut",
       "type": "text",
