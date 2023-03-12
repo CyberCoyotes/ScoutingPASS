@@ -8,11 +8,6 @@ var config_data = `
       "code": "t",
       "type": "number"
     },
-    { "name": "Length",
-      "code": "len",
-      "type": "number",
-      "defaultValue": "0"
-    },
     { "name": "Width",
       "code": "wid",
       "type": "number",
@@ -27,32 +22,56 @@ var config_data = `
       "code": "drv",
       "type": "radio",
       "choices": {
-        "s": "Swerve (Any version)<br>",
+        "s": "Swerve<br>",
         "w": "West Coast/Tank<br>",
-        "m": "Mecanum<br>",
+        "b": "Butterfly/Grashopper<br>",
+        "m": "Mechanum<br>",
         "o": "Other"
       },
       "defaultValue": "o"
     },
-    { "name": "Drivetrain Notes",
-      "code": "dtn",
+    { "name": "Other Drivetrain",
+      "code": "odt",
       "type": "text",
       "size": 20,
       "maxSize": 50
     },
-    { "name": "Swerve Speed (optional)",
+    { "name": "Swerve Ratio",
       "code": "sr",
       "type": "radio",
       "choices": {
-        "x": "NA"
         "1": "L1<br>",
         "2": "L2<br>",
         "3": "L3<br>",
         "4": "L4<br>",
+        "x": "Not Swerve"
       },
       "defaultValue":"x"
     },
-    { "name": "Auton Notes",
+    { "name": "Drivetrain Motor",
+      "code": "mot",
+      "type": "radio",
+      "choices": {
+        "n": "Neo<br>",
+        "f": "Falcon<br>",
+        "c": "CIM<br>",
+        "x": "Other<br>"
+      },
+      "defaultValue":"x"
+    },
+    { "name": "Floor pickup Cones",
+      "code": "fco",
+      "type": "bool"
+    },
+    { "name": "Floor pickup Cubes",
+      "code": "fcu",
+      "type": "bool"
+    },
+    { "name": "Cross Charging Station",
+      "code": "ccs",
+      "type": "bool"
+    },
+    { "name": "Autos",
       "code": "aut",
       "type": "text",
       "size": 20,
