@@ -44,11 +44,11 @@ var config_data = `
       "code": "sr",
       "type": "radio",
       "choices": {
-        "x": "NA"
+        "x": "NA",
         "1": "L1<br>",
         "2": "L2<br>",
         "3": "L3<br>",
-        "4": "L4<br>",
+        "4": "L4<br>"
       },
       "defaultValue":"x"
     },
