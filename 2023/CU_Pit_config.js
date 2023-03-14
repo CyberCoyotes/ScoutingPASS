@@ -8,12 +8,12 @@ var config_data = `
       "code": "t",
       "type": "number"
     },
-    { "name": "Length",
+    { "name": "Length of Chassis w/o Bumpers",
       "code": "len",
       "type": "number",
       "defaultValue": "0"
     },
-    { "name": "Width",
+    { "name": "Width of Chassis w/o Bumpers",
       "code": "wid",
       "type": "number",
       "defaultValue": "0"
@@ -39,18 +39,6 @@ var config_data = `
       "type": "text",
       "size": 20,
       "maxSize": 50
-    },
-    { "name": "Swerve Speed (optional)",
-      "code": "sr",
-      "type": "radio",
-      "choices": {
-        "1": "NA<br>",
-        "2": "L1<br>",
-        "3": "L2<br>",
-        "4": "L3<br>",
-        "5": "L4<br>"
-      },
-      "defaultValue":"1"
     },
     { "name": "Cones from FLOOR?",
     "code": "cff",
@@ -101,6 +89,12 @@ var config_data = `
       "4": "75% or better<br>"
     },
     "defaultValue":"1"
+    },
+    { "name": "Preferred Auton Start",
+      "code": "aut",
+      "type": "text",
+      "size": 20,
+      "maxSize": 250
     },
     { "name": "Auton Notes",
       "code": "aut",
