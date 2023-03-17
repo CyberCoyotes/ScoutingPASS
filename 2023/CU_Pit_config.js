@@ -97,7 +97,7 @@ var config_data = `
       "maxSize": 250
     },
     { "name": "Auton Notes",
-      "code": "aut",
+      "code": "atn",
       "type": "text",
       "size": 20,
       "maxSize": 250
