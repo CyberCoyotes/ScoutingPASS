@@ -3,29 +3,11 @@
 # Scouting P.A.S.S. Google Sheets <BETA>
 
 ## Now supporting data storage in Google Sheets!
-### **^^^^^ This feature is in BETA looking for teams to test it ^^^^^**
 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#disclaimer">Disclaimer</a></li>
-    <li><a href="#description">Description</a></li>
-    <li><a href="#getting-started">Set Up</a></li>
-  </ol>
-</details>
-
-<div id="disclaimer"></div>
-
-## Disclaimer
-This feature was implemented due to many requests.  This feature is not used currently by PWNAGE due to the "Low/No Bandwidth" goal of our scouting system.
-Support for this feature will be secondary to our main features and possibly delayed due to not having a working environment for testing and debugging.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 <div id="description"></div>
 
 ## Description:
+<<<<<<< HEAD
 Scouting PASS now implements an inteface to a Google Sheets spreadsheet.
 
 Data from the web page (form) will be packaged up and sent to your Google Sheets spreadsheet.
@@ -116,24 +98,18 @@ There is an extensive set-up process described in following section.  Follow the
     * After deploying, on the next screen, copy the Web App URL and save it.  You'll need it later.
 
 # Scouting P.A.S.S Set Up
+=======
+Scouting PASS implements the Google Sheets integration like any other database.
 
-1. Set up the URL
-    * In resources/js/googleSheets.js, on line 2, replace <SCRIPT URL> with the URL you just copied from Google Sheets.  It needs to stay wrapped in single quotes.
-2. Enable Google Sheets in Scouting PASS
-    * In your configuraiton file (i.e. 2022/RR_GS_config.js) at the top level add:
 
-        `"enable_google_sheets": "true",`
-    * Best place to add this is just after line 2, like this:
+Set the 'dataFormat' to 'tsv' in your configuration file.   It is set to that by default.
 
-```javascript
-        var config_data = `
-        {
-          "enable_google_sheets": "true",
-          "title": "Scouting PASS 2022",
-          "page_title": "Rapid React",
-          ...
-```
+The data will now be sent through the QR code as tab-delimited data.
 
+To pull the data into your Google Spreadsheet, put your cursor in the first cell where you want the data.  When you scan
+the QR code it will fill in each cell using the tabs to move to the next cells.
+
+<<<<<<< HEAD
 2. Add gsCol tag in config file
     * In that same configuration file, you need to add a "gsCol" tag for each element in the configuration script.  The gsCol (AKA Google Sheets Column) will tell Google
   Sheets which column to put the data in.
@@ -155,3 +131,6 @@ There is an extensive set-up process described in following section.  Follow the
 ## See 2022/RR_GS_config.js as an example of a configuration file that uses Google Sheets.
   
 <p align="right">(<a href="#top">back to top</a>)</p>
+=======
+NOTE: Special scripts and setup are no longer needed to use ScoutingPASS with Google Sheets
+>>>>>>> 9e5672b60196fcd57868174088146c884aa9b98a
