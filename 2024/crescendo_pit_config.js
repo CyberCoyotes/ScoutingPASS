@@ -86,17 +86,7 @@ var config_data = `
       "type": "text",
       "size": 20,
       "maxSize": 250
-    },
-    { "name": "length",
-      "code": "len",
-      "type": "number",
-      "defaultValue": "0"
-    },
-    { "name": "height",
-      "code": "hei",
-      "type": "number",
-      "defaultValue": "0"
-    },
+    }
   ],
   "auton": [
   ],
