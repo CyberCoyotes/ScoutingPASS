@@ -108,14 +108,29 @@ var config_data = `
         "2": "Undernearth<br>",
         "3": "Source<br>",
         "4": "Other<br>",
+        "defaultValue":"1"
       },
-      "defaultValue":"1"
+      
       { 
         "name": "Autons w/75% or better reliability",
         "code": "auc",
         "type": "number",
         "defaultValue": "0"
       },
+      { 
+        "name": "Best Auton Count",
+        "code": "bac",
+        "type": "number",
+        "defaultValue": "0"
+      },
+      { "name": "Auto Start Position",
+      "code": "asp",
+      "type": "clickable_image",
+      "filename": "2024/field_image.png",
+      "clickRestriction": "one",
+      "allowableResponses": "1 12 13 24 25 36 37 48 49 60 61 72",
+      "shape": "circle 5 black red true"
+    }
 
   ],
   "auton": [
