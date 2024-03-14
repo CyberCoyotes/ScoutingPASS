@@ -111,8 +111,8 @@ var config_data = `
         "defaultValue":"1"
       },
       { 
-        "name": "Autons w/75% or better reliability",
-        "code": "auc",
+        "name": "Autons w/75% or better",
+        "code": "aus",
         "type": "number",
         "defaultValue": "0"
       },
