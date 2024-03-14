@@ -97,16 +97,6 @@ var config_data = `
       "type": "number",
       "defaultValue": "0"
     },
-    { name Autons w75% or better,
-      code aus,
-      type number,
-      defaultValue 0
-    },
-    { name Best Auton Count,
-      code bac,
-      type number,
-      defaultValue 0
-    },
   ],
   "auton": [
   ],
