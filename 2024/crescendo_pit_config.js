@@ -87,20 +87,17 @@ var config_data = `
       "size": 20,
       "maxSize": 250
     },
-    { 
-      "name": "length",
+    { "name": "length",
       "code": "len",
       "type": "number",
       "defaultValue": "0"
     },
-    { 
-      "name": "height",
+    { "name": "height",
       "code": "hei",
       "type": "number",
       "defaultValue": "0"
     },
-    { 
-      "name": "Intake Design",
+    { "name": "Intake Design",
       "code": "ind",
       "type": "radio",
       "choices": {
@@ -110,14 +107,12 @@ var config_data = `
         "4": "Other<br>",
         "defaultValue":"1"
       },
-      { 
-        "name": "Autons w/75% or better",
+      { "name": "Autons w/75% or better",
         "code": "aus",
         "type": "number",
         "defaultValue": "0"
       },
-      { 
-        "name": "Best Auton Count",
+      { "name": "Best Auton Count",
         "code": "bac",
         "type": "number",
         "defaultValue": "0"
