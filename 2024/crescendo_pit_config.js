@@ -110,7 +110,6 @@ var config_data = `
         "4": "Other<br>",
         "defaultValue":"1"
       },
-      
       { 
         "name": "Autons w/75% or better reliability",
         "code": "auc",
