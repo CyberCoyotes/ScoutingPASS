@@ -96,36 +96,7 @@ var config_data = `
       "code": "hei",
       "type": "number",
       "defaultValue": "0"
-    },
-    { "name": "Intake Design",
-      "code": "ind",
-      "type": "radio",
-      "choices": {
-        "1": "Over the bumper<br>",
-        "2": "Undernearth<br>",
-        "3": "Source<br>",
-        "4": "Other<br>",
-        "defaultValue":"1"
-      },
-      { "name": "Autons w/75% or better",
-        "code": "aus",
-        "type": "number",
-        "defaultValue": "0"
-      },
-      { "name": "Best Auton Count",
-        "code": "bac",
-        "type": "number",
-        "defaultValue": "0"
-      },
-      { "name": "Auto Start Position",
-      "code": "asp",
-      "type": "clickable_image",
-      "filename": "2024/field_image.png",
-      "clickRestriction": "one",
-      "allowableResponses": "1 12 13 24 25 36 37 48 49 60 61 72",
-      "shape": "circle 5 black red true"
     }
-
   ],
   "auton": [
   ],
