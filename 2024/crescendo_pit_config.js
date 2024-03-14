@@ -86,7 +86,37 @@ var config_data = `
       "type": "text",
       "size": 20,
       "maxSize": 250
-    }
+    },
+    { 
+      "name": "length",
+      "code": "len",
+      "type": "number",
+      "defaultValue": "0"
+    },
+    { 
+      "name": "height",
+      "code": "hei",
+      "type": "number",
+      "defaultValue": "0"
+    },
+    { 
+      "name": "Intake Design",
+      "code": "ind",
+      "type": "radio",
+      "choices": {
+        "1": "Over the bumper<br>",
+        "2": "Undernearth<br>",
+        "3": "Source<br>",
+        "4": "Other<br>",
+      },
+      "defaultValue":"1"
+      { 
+        "name": "Autons w/75% or better reliability",
+        "code": "auc",
+        "type": "number",
+        "defaultValue": "0"
+      },
+
   ],
   "auton": [
   ],
