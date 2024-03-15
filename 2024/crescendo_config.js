@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024milac",
+      "defaultValue": "2024mitvc",
       "required": "true"
     },
     { "name": "Match Level",
