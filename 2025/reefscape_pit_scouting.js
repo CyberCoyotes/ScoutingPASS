@@ -1,7 +1,7 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting PASS 2025",
+  "title": "CYBER COYOTES - Scouting PASS 2025",
   "page_title": "REEFSCAPE",
   "pitConfig": "true",
   "prematch": [

@@ -1,7 +1,7 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting PASS 2025",
+  "title": "CYBER COYOTES - Scouting PASS 2025",
   "page_title": "REEFSCAPE",
   "checkboxAs": "10",
   "prematch": [
@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2025ilpe",
+      "defaultValue": "2025milac",
       "required": "true"
     },
     { "name": "Match Level",
